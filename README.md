@@ -77,6 +77,7 @@ VisionDraft is a professional-grade screenplay management platform built for wri
    ```
 
 3. **Create `.env.local`**
+<<<<<<< HEAD
    ```env
    # Firebase Configuration
    NEXT_PUBLIC_FIREBASE_API_KEY=your_firebase_api_key
@@ -88,6 +89,9 @@ VisionDraft is a professional-grade screenplay management platform built for wri
 
    # Google Gemini API
    GEMINI_API_KEY=your_gemini_api_key
+=======
+   ``N/A
+>>>>>>> 56afd57f4ab441561a05ea355b5e097bf1f25ab9
    ```
 
 4. **Run the dev server**
