@@ -85,7 +85,7 @@ NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=vision-draft.firebasestorage.app
 NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=101801619253
 NEXT_PUBLIC_FIREBASE_APP_ID=1:101801619253:web:51f91e330d0ebc7fa9a67c
    # Google Gemini API
-   GEMINI_API_KEY=your_gemini_key
+   GEMINI_API_KEY=NA
    ```
 
 4. **Run the dev server**
