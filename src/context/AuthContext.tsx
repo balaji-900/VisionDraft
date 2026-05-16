@@ -50,7 +50,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       await setDoc(ref, profile);
       return { ...profile, createdAt: new Date(), updatedAt: new Date() } as UserProfile;
     }
-    return { id: snap.id, ...snap.data() } as UserProfile;
+    return { id: snap.id, ...snap.data() } as unknown as UserProfile;
   };
 
   const fetchProfile = async (uid: string) => {
