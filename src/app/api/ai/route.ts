@@ -56,7 +56,7 @@ export async function POST(req: NextRequest) {
     const systemPrompt = systemPrompts[mode] || systemPrompts.expand;
     const styleInstruction = style ? `\n\nApply a "${style}" cinematic style to your response. Do NOT reference any specific real-world directors by name.` : '';
 
-    const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
+    const model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash' });
     const result = await model.generateContent(`${systemPrompt}${styleInstruction}\n\nUser input: ${input}`);
     const response = result.response;
     const text = response.text();
